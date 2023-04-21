@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        #panel{
+            margin: 100px;
+            padding: 20;
+            border: 1px solid red;
+            text-align: center;
+
+        }
+    </style>
+</head>
+<body>
+    <a href="http://nexpress.net">News</a> 
+   
+    <script>
+        $(document).ready(function(){
+
+        });
+        $(document).ready(function(){
+            $("a").click(function(event){
+                alert("Hello");
+                event.preventDefault();
+            })
+        });
+        $(document).ready(function(){
+            $("h1").css("color","blue");
+            $(".red").css("color","red");
+            $("p").css("background-color","green");
+        });
+        $(document).ready(function(){
+            $("div").mouseover(function(){
+                alert("Mouse over!!");
+            })
+            $(document).ready(function(){
+                $("#hello").click(function(){
+                    alert($("p").html());
+                })
+            });
+
+            $("#data").click(function(){
+                alert$($("p").text());
+            });
+
+            $(document).ready(function(){
+                $("#panel").hide();
+                $('button').click(function(){
+                    $('#panel').slideToggle();
+                })
+            })
+        })
+          </script>
+         <!-- <h1 id="hello">Hello</h1>
+         <div class="red">This is div tag</div>
+         <p>This is tag</p>
+         <button id="hello">Get the button Hello</button>
+         <button id="data">Get the button</button> -->
+         <button> click</button>
+         <div id="panel">Heo</div>
+ 
+</body>
+</html>
