@@ -71,7 +71,7 @@ input:focus{
 }
 .btn-1,
 .btn-2{
-    padding: 10px 5px;
+    padding: 10px 5x;
     width: 100%;
     display: flex;
     gap: 15px;

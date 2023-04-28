@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body{
+ position: relative;
+ background-color: #eee;
+}
+.content {
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    width: 300px;
+}
+
+i{
+    display: inline;
+    background-color: #c4c4c4;
+    padding: 6px;
+    box-sizing: border-box;
+    height: 34px;
+    margin-right: 0;
+    width: 34px;
+    height: 34px;
+}
+.fullname{
+    width: 300px;
+    height: 34px;
+    display: flex;
+}
+
+#username{
+    width: 266px;
+    right: 0;
+    left: 0;
+}
+
+.btn-1,
+.btn-2{
+    box-sizing: border-box;
+    padding: 10px 5x;
+    width: 300px;
+    height: 34px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #c4c4c4;
+    border-radius: 3px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+.fa-brands{
+    background-color: #33ccff;
+}
+.fa-facebook{
+    background-color: #6699ff;
+}
+.btn-1{
+    background-color: #33ccff;
+    border: 2px solid  #33ccff;
+    color: aliceblue;
+    margin-bottom: 15px;
+}
+.btn-2{
+    color: aliceblue;
+    background-color: #6699ff;
+    border: 2px solid   #6699ff;
+
+}
+
+input{
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    height: 34px;
+    box-sizing: border-box;
+    margin-left: 0;
+    
+}
+.btn-3{
+    color: aliceblue;
+    background-color: #33ccff;
+    border-radius: 3px;
+    border: 1px solid ;
+    width: 300px;
+    height: 40px;
+}
+form div{
+    position: relative;
+    margin-bottom: 15px;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}  
+.or{
+  padding: 20px 0 20px 140px;
+  flex-direction: column;
+   align-items: center;
+}
+form{
+    display: flex;
+}
+.fa-solid{
+    right: 0;
+}
+.a{
+    color: #33ccff;
+}
+.b{
+  padding: 0 0 0 70px;
+}
+h2{
+    padding: 0 0 0 70px;
+}
+p{
+    padding: 0 0 0 40px;
+}
+.form-control{
+    height: 34px;
+    width: 88%;
+}
+.tele{
+    width: 18%;
+    height: 34px;
+    box-sizing: border-box;
+    color: #ccc;
+}
+.fa-phone{
+   height: 29px;
+    width: 34px;
+}
+.phone{
+    width: 67%;
+    display: inline;
+    height: 34px;
+}
+select{
+    border: 1px solid #c4c4c4;
+}
