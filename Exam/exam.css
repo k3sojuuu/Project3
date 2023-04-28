@@ -17,13 +17,14 @@ body{
 
 i{
     display: inline;
-    background-color: #c4c4c4;
+    background-color: #bababa;
     padding: 6px;
     box-sizing: border-box;
     height: 34px;
     margin-right: 0;
     width: 34px;
     height: 34px;
+    border-radius: 3px 0 0 3px;
 }
 .fullname{
     width: 300px;
@@ -35,12 +36,25 @@ i{
     width: 266px;
     right: 0;
     left: 0;
+    border-radius: 0 3px 3px 0;
+}
+#email{
+    width: 266px;
+    right: 0;
+    left: 0;
+    border-radius: 0 3px 3px 0;
+}
+#password{
+    width: 266px;
+    right: 0;
+    left: 0;
+    border-radius: 0 3px 3px 0;
 }
 
 .btn-1,
 .btn-2{
     box-sizing: border-box;
-    padding: 10px 5x;
+    padding: 12px 5x;
     width: 300px;
     height: 34px;
     display: flex;
@@ -52,22 +66,35 @@ i{
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
     cursor: pointer;
 }
-.fa-brands{
-    background-color: #33ccff;
+.btn-1 p {
+    padding: 0;
 }
-.fa-facebook{
-    background-color: #6699ff;
+.btn-2 p{
+    padding: 0;
+}
+.fa-twitter{
+    background-color: #33ccff;
+    padding: 8px 0 0 0;
+    font-size: 18px;
+}
+.fa-facebook-f{
+    background-color: #1f5cd5;
+    padding: 8px 0 0 0;
+    font-size: 18px;
 }
 .btn-1{
     background-color: #33ccff;
     border: 2px solid  #33ccff;
     color: aliceblue;
-    margin-bottom: 15px;
+    margin-bottom: 11px;
+    font-size: 13px;
+    text-align: center;
 }
 .btn-2{
     color: aliceblue;
-    background-color: #6699ff;
-    border: 2px solid   #6699ff;
+    background-color: #1f5cd5;
+    border: 2px solid   #1f5cd5;
+    font-size: 13px;
 
 }
 
@@ -96,9 +123,12 @@ label{
     margin-bottom: 10px;
 }  
 .or{
-  padding: 20px 0 20px 140px;
-  flex-direction: column;
-   align-items: center;
+    text-align: center;
+    padding: 15px;
+    flex-direction: column;
+    align-items: center;
+    opacity: 0.7;
+    font-size: 11px;
 }
 form{
     display: flex;
@@ -110,17 +140,24 @@ form{
     color: #33ccff;
 }
 .b{
-  padding: 0 0 0 70px;
+  padding-top: 15px;
+  text-align: center;
+  font-size: 11px;
 }
 h2{
-    padding: 0 0 0 70px;
+    text-align: center;
+    font-size: 18px;
+    padding: 40px 0 15px 0;
+    opacity: 0.8;
 }
 p{
-    padding: 0 0 0 40px;
+  text-align: center;
+  font-size: 13px;
+  padding-bottom: 14px;
 }
 .form-control{
     height: 34px;
-    width: 88%;
+    width: 87%;
 }
 .tele{
     width: 18%;
@@ -129,7 +166,7 @@ p{
     color: #ccc;
 }
 .fa-phone{
-   height: 29px;
+   height: 28px;
     width: 34px;
 }
 .phone{
